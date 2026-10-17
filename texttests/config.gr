@@ -5,11 +5,8 @@ view_program:subl
 diff_program:meld
 
 
-# Settings for the C# NUnit version (build first with: dotnet build csharp.NUnit)
-executable:${TEXTTEST_HOME}/csharp.NUnit/GildedRose/bin/Debug/net10.0/GildedRose
-
 # Settings for the C# xUnit version (build first with: dotnet build csharp.xUnit)
-#executable:${TEXTTEST_HOME}/csharp.xUnit/GildedRose/bin/Debug/net10.0/GildedRose
+executable:${TEXTTEST_HOME}/csharp.xUnit/GildedRose/bin/Debug/net10.0/GildedRose
 
 
 filename_convention_scheme:standard
