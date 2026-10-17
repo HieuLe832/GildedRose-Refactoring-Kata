@@ -13,22 +13,7 @@ While you're here, change the settings for editor and diff program to match your
 
 ## Running TextTest
 
-The instructions are slightly different depending on your platform.
-
-### Running TextTest on Linux or MacOS
-
 There is a convenience script 'start_texttest.sh' in the root folder of this repo. This script assumes you already have Python installed. This script will first create a virtual python environment and install texttest if you haven't done that before, then run the tests.
-
-### Running TextTest on Windows
-
-Download the installer as explained on [TextTest.org](http://www.texttest.org/getting_started/install_windows.html). Make sure the texttest executable is on your PATH. Then use the convenience script 'start_texttest.bat'  in the root folder of this repo to run the tests on the console.
-
-Windows may warn you that it doesn't trust this installer and be reluctant to download it. If you prefer not to continue with this, an alternative is to run TextTest via Python. First install Python then use the convenience script 'start_texttest_from_python.bat'.
-
-For Windows users using start_texttest_from_python.bat, it's recommended to:
-1. Install Meld (available at https://meldmerge.org) as your diff viewer
-2. Set the text_diff_program to 'fc' in your config.gr file
-3. Use Meld as your view_program for its simplicity and ease of use
 
 ## Interpreting Test Results
 
